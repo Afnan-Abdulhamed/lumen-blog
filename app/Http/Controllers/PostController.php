@@ -36,6 +36,6 @@ class PostController extends Controller
               "body"=> "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut"
         ]];
 
-        return response()->json($result, 200, []);
+        return response()->json($result, 200, []); 
     }
 }
