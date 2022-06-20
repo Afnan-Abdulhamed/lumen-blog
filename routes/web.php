@@ -17,7 +17,7 @@ $router->get('/', function () use ($router) {
     return $router->app->version();
 });
 
-$router->get('/posts', 'PostController@listPosts');
+$router->get('/blogs', 'PostController@listPosts');
 
 $router->post('/posts/get', function () {
     return 'Hello World';
