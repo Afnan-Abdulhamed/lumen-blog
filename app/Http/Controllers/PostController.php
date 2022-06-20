@@ -20,7 +20,7 @@ class PostController extends Controller
             [
               "userId" => 1,
               "id"=> 1,
-              "title"=> "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+              "title"=> "Openshift test",
               "body"=> "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
             ],
             [
@@ -36,7 +36,7 @@ class PostController extends Controller
               "body"=> "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut"
         ]];
  
-        
+
         return response()->json($result, 200, []); 
     }
 }
